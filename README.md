@@ -21,7 +21,7 @@ steps:
   - uses: actions/checkout@v2
     with:
         fetch-depth: 0
-  - uses: <org>/deploy-wireguard-algo-vpn-action@v1
+  - uses: <org>/deploy-wireguard-algo-vpn-action@v0.1
     with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
         public-ip: ${{ secrets.PUBLIC_IP }}
